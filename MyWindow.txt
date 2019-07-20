@@ -1,0 +1,70 @@
+import java.awt.*;
+public class MyWindow extends Frame
+{
+	Label l1,l2,l3,l4,l5,l6,l7;
+	TextField t1,t2,t3;
+	Checkbox c1,c2,c3,c4,c5;
+	Checkbox Group cbg;
+	List l;
+	Choice c;
+	Button b1;
+	public static void main (String s[])
+	{
+		checkc=new Checkc;
+		c.job();
+	}
+	public check;
+	{
+		L1=new Label("Name");
+		L2=new Label("Password");
+		L3=new Label("Confirm Password");
+		L4=new Label("Gender");
+		L5=new Label("Educational Qualification");
+		L6=new Label("List Of Paper");
+		L7=new Label("Hobbies");
+		t1=new TextField(20);
+		t2=new TextField(20);
+		cbg=new Checkbox Groupc;
+		c1=new Checkbox("Male",cbg);
+		c2=new Checkbox("Female",cbg);
+		c3=new Checkbox("Cooking");
+		c4=new Checkbox("Riding");
+		c5=new Checkbox("Fishing");
+		L1=new List (4,False);
+		l.add("Engeneering Drawing");
+		l.add("Digital Logic");
+		l.add("Java");
+		l.add("C++");
+		c=new Choice();
+		c.add("Graduation");
+		c.add("Post Graduation");
+		c.add("Diploma");
+		c.add("Doctrate");
+		b=new Button("Ok");
+	}
+	public void job()
+	{
+		set Tittle("MyLayout");
+		set Size(700,700);
+		set Layout("new FlowLayOut");
+		add(l1);
+		add(t1);
+		add(l2);
+		add(t2);
+		add(l3);
+		add(t3);
+		add(l4);
+		add(c1);
+		add(c2);
+		add(l5);
+		add(c);
+		add(l6);
+		add(l);
+		add(l7);
+		add(c3);
+		add(c4);
+		add(c5);
+	set Visible(true);
+	}
+}
+		

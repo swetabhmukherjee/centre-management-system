@@ -1,0 +1,38 @@
+Menu: Admin
+
+Option 1: Login
+Option 2: Chage Password
+
+Choose
+Option 1: (Login) To login into the CMS software. This option prompts two inputs,Id and Password.
+          If the Id and Password matchs with Database. Then only the next Menu i.e Registration is
+          made active by the software.
+Choose
+Option 2: (Change Password) To change the password. This is a Security Feature so that the
+          administrator can change the passwords Periodically.
+___________________________________________________________________________________________________
+Menu: Registration
+
+Option 1: Staff Registration
+Option 2: Faculty Registration
+Option 3: Student Registration
+
+Choose
+Option 1: To Registration a new Staff. Here Name, Address, Gender and Dept. are to be filled in 
+          order to register a new satff.     
+Option 2: Faculty Registration. This Option must be chosen in order to register a new faculty who join,
+          the center. Here Name Address, Gender and Educational qualification must be filled to register
+          a new faculty.
+Option 3: The most important and most frequent option to be used is this option. This option is used to 
+          register a new Student. Here Student Name, Course Name, Gender, Father's Name and Mobile no 
+          must be enterd to register a new Student.
+_______________________________________________________________________________________________________ 
+Menu3: Search.
+
+The search menu is chosen to find a student. A student can be searched either by name or by Student 
+ID(i.e Moblieno) user has to choose either of these two radio button.When Student name is selected,
+Student name must be entered in the textField in the textfield and then click search.The result will
+be displayed in the text area. If no match is found then then a dialogue box appears.
+The same Process is repeated for searching a student with student Id(i.e Mobile no).  
+
+    
